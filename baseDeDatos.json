@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Luisi1",
+    "author": "Luisi Nuñez 1",
+    "genre": "Luisi1",
+    "year": "Luisi1",
+    "cost": "Luisi1",
+    "price": "Luisi1"
+  },
+  {
+    "id": 2,
+    "title": "Luisi2",
+    "author": "Luisi Nuñez",
+    "genre": "suspenso",
+    "year": 1991,
+    "cost": "3000ar",
+    "price": "3000ar"
+  }
+]
