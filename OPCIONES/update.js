@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+// ¿Qué pasa si no se quieren editar TODOS los valores del objeto libro? ¿Cómo refactorizarías el código para que no se pierdan los valores viejos que no desean ser editados?
 function editTask(id, title, author, genre, year, cost, price) {
   let data = fs.readFileSync("./baseDeDatos.json", "utf-8");
   let dataParseada = JSON.parse(data);
