@@ -3,6 +3,7 @@ const readTask = require("./OPCIONES/read");
 const editTask = require("./OPCIONES/update");
 const deleteTask = require("./OPCIONES/delete");
 
+// Falta añadir la opción default dentro del switch para el caso en que no se pase ningún comando o ninguno que fuese válido.
 switch (process.argv[2]) {
   case "new": //este es el archivo create u opción CARGA
     addTask(
